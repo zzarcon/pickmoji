@@ -1,0 +1,35 @@
+{
+  "name": "pickmoji",
+  "version": "0.1.0",
+  "description": "The ultimate Emoji picker component for the web",
+  "main": "src/index.js",
+  "scripts": {
+    "watch": "watchify demo/index.js -o demo/demo_bundle.js",
+    "styles": "node-sass src/styles.scss tmp/styles.css -w",
+    "serve": "serve",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzarcon/pickmoji.git"
+  },
+  "author": "zzarcon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzarcon/pickmoji/issues"
+  },
+  "homepage": "https://github.com/zzarcon/pickmoji#readme",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "chai": "^3.5.0",
+    "karma": "^1.2.0",
+    "karma-browserify": "^5.1.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-mocha": "^1.1.1",
+    "mocha": "^3.0.2",
+    "node-sass": "^3.9.3",
+    "serve": "^1.4.0",
+    "watchify": "^3.7.0"
+  }
+}
